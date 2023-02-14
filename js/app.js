@@ -10,8 +10,8 @@ document.getElementById("submit-btn").addEventListener("click", function () {
 
   //   validation check
   if (email === "sumo@gmail.com" && password === "525252") {
-    console.log("valid user");
+    window.location.href = "main.html";
   } else {
-    console.log("invalid user");
+    alert("invalid user");
   }
 });

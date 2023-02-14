@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mt {
+  margin-top: 50px;
+}
+.main {
+  width: 75vw;
+  margin: 0 auto;
+}
+.main-heading {
+  text-align: center;
+  margin-top: 10px;
+}
+.display {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  color: #ffffff;
+}
+.display-1,
+.display-2,
+.display-3 {
+  background-color: rgb(138, 112, 80);
+  padding: 50px;
+  border-radius: 10px;
+}
+.display-2 {
+  background-color: rgb(68, 126, 126);
+}
+.display-3 {
+  background-color: rgb(117, 117, 68);
+}
+/* Deposit and Withdraw input section start  */
+.input-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  color: #ffffff;
+}
+.deposit-input {
+  background-color: #e879f9;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.withdraw-input {
+  background-color: #38bdf8;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.depo-with-btn,
+.deposit-field {
+  display: block;
+  margin-top: 10px;
+}
+/* Deposit and Withdraw input section end  */

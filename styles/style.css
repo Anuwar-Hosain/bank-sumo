@@ -5,3 +5,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.main-heading {
+  text-align: center;
+  margin-top: 10px;
+}
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  margin: 0 auto;
+  background-color: rgb(186, 186, 255);
+  border-radius: 5px;
+  height: 80vh;
+}
+.login-div {
+  text-align: center;
+  padding: 10px 20px;
+  width: 70%;
+}
+.email,
+.password,
+.submit-btn {
+  display: block;
+  margin-bottom: 10px;
+}
+.email,
+.password {
+  padding: 10px;
+  width: 100%;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WelCome to our Bank sumo</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <!-- header section start -->
+    <h1 class="main-heading">WelCome to Bank Sumo!!</h1>
+    <!-- header section end -->
+    <main class="main">
+      <!-- All Display start -->
+      <section class="mt">
+        <div class="display">
+          <div class="display-1">
+            <h2>Deposit</h2>
+            <h1>$<samp id="deposit-total">000</samp></h1>
+          </div>
+          <div class="display-2">
+            <h2>Withdraw</h2>
+            <h1>$ <samp id="withdraw-total">000</samp></h1>
+          </div>
+          <div class="display-3">
+            <h2>Balance</h2>
+            <h1>$<samp id="balance-total">1020</samp></h1>
+          </div>
+        </div>
+      </section>
+      <!-- All Display end -->
+      <!-- Deposit and Withdraw input section start -->
+      <section class="mt">
+        <div class="input-div">
+          <div class="deposit-input">
+            <h2>Please Deposit</h2>
+            <input
+              type="text"
+              name=""
+              id="deposit-field"
+              placeholder="$ Amount you want to deposit"
+              class="deposit-field"
+            />
+            <button class="depo-with-btn" id="deposit-btn">Deposit</button>
+          </div>
+          <div class="withdraw-input">
+            <h2>Please Withdraw</h2>
+            <input
+              type="text"
+              name=""
+              id="withdraw-field"
+              placeholder="$ Amount you want to withdraw"
+              class="withdraw-field"
+            />
+            <button class="depo-with-btn" id="withdraw-btn">Withdraw</button>
+          </div>
+        </div>
+      </section>
+      <!-- Deposit and Withdraw input section end -->
+    </main>
+    <!-- Js file -->
+    <script src="js/deposit.js"></script>
+  </body>
+</html>
